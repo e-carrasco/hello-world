@@ -1,0 +1,25 @@
+package com.ex.pojo.exception;
+
+//Sample of creating your own Exception
+
+public class StudentException extends Exception{
+
+        /**
+         * 
+         */
+        private static final long serialVersionUID = -3086652526001766115L;
+        
+        public StudentException() {
+                super();
+        }
+        public StudentException(String message) {
+                super(message);
+        }
+        public StudentException(String message, Throwable cause) {
+                super(message,cause);
+        }
+        public StudentException(Throwable cause) {
+                super(cause);
+        }
+
+}
