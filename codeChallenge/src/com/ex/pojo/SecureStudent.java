@@ -54,8 +54,7 @@ public class SecureStudent implements Serializable{
 
         @Override
         public String toString() {
-                counter++;
-                return "SecureStudent [name=" + name + ", username=" + username
+                return counter + ":" + "SecureStudent [name=" + name + ", username=" + username
                                 + ", password=" + password + "]";
         }
         

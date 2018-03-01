@@ -19,6 +19,10 @@ public class SerializeStudent {
                 
                 System.out.println(s);
                 
+                SecureStudent someone = deserialize();
+                
+                System.out.println(someone);
+                
         }
         
         static void serialize(SecureStudent student) {
